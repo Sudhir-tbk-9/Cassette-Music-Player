@@ -1,0 +1,49 @@
+.feed-body{
+    display:flex;
+    flex-wrap: wrap;
+    overflow-x:scroll ;
+    scroll-behavior:smooth;
+    padding-left: 24px;
+    padding-top: 10px;
+    background-color: rgba(3, 13, 78, 0.09);
+}
+
+.album-card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+  }
+  
+  .album-card:hover {
+    transform: scale(1.05); 
+  }
+/*   
+  .album-card:last-child {
+    margin-right: 0;
+  } */
+  
+  .album-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .album-card:hover .album-image {
+    transform: scale(1.1); /* Scale up the image inside the card on hover */
+  }
+  
+  .album-info {
+    margin-top: 6px;
+  }
+  
+  .album-name {
+    font-weight: bold;
+  }
+  
+  .album-artist {
+    color: #939090;
+    margin-top: 6px;
+  }
+  

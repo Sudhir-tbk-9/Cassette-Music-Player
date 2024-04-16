@@ -1,0 +1,27 @@
+.screen-container{
+    width: calc(100% - 10vw) ;
+    height: 100%;
+    /* overflow: hidden; */
+    background-color: #080333;
+    border-radius: 5%;
+    opacity: 1;
+    background-image:repeating-radial-gradient(
+        circle at right top,
+        transparent 0,
+        #090437 10rem
+        ),
+        repeating-linear-gradient(#05358755, #1a194a) ;
+        color: white;
+    }
+    
+    
+    /* background-image:repeating-radial-gradient(
+        circle at center left,
+        transparent 0,
+        #562323 12rem
+        ),
+        repeating-linear-gradient(#1e2a3e55, #d73636) ; */
+
+.flex{
+    display: flex;
+}        
